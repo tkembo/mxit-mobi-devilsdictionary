@@ -11,10 +11,10 @@
 	$GA_PIXEL = "ga.php";
 	
 	//DB Settings
-	$hostname_mxit_devilsdictionary = "mxitdevilsdictionary.cinsddkh5wyt.us-east-1.rds.amazonaws.com";
-	$database_mxit_devilsdictionary = "mxit_devilsdictionary";
-	$username_mxit_devilsdictionary = "tkembo";
-	$password_mxit_devilsdictionarys = "tenfeb1987";
+	$hostname_mxit_devilsdictionary = "us-cdbr-azure-west-b.cleardb.com";
+	$database_mxit_devilsdictionary = "mxitdevilsdictionary";
+	$username_mxit_devilsdictionary = "b5799a500e83b2";
+	$password_mxit_devilsdictionarys = "8f65b047";
 	$mxit_devilsdictionary = mysql_pconnect($hostname_mxit_devilsdictionary, $username_mxit_devilsdictionary, $password_mxit_devilsdictionarys) or trigger_error(mysql_error(),E_USER_ERROR); 
 	
 ?>
