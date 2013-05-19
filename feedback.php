@@ -22,13 +22,12 @@
 	Applicaition developed by: <strong>Tawanda Kembo</strong>
 </p>
 <p>
-	Feel to to email suggestions/feedback/comments/complaints to <strong>support@smartapplications.co.zw</strong>
+	Feel to to email suggestions/feedback/comments/complaints to <strong><a href="mailto:tkembo@gmail.com">tkembo@gmail.com</a></strong>
 </p>
 <p>
 Other Mxit Applications by Tawanda Kembo
 <ul>
 	<li>Murphy's Laws (<strong>muphyslaws</strong>)</li>
-    <li>ZiFM Stereo (<strong>zifm</strong>)</li>
     <li>Urban Dictionary (<strong>urbandictionary</strong>)</li>
 </ul>
 </p>
