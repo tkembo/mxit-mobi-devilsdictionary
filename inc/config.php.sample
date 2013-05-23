@@ -1,0 +1,20 @@
+<?php
+	
+	//Configuration for Shinka Banners
+	$config = array('AdUnitID_320'  => 'XXXXX',
+                    'RESIZE_IMAGES' => TRUE,
+                    'REFERER'       => 'devilsdictionary',
+                    'TESTUSER'      => 'tkembo');
+	
+	//Configuration for Google Analytics
+	$GA_ACCOUNT = "MO-XXXXXXXX-X";
+	$GA_PIXEL = "ga.php";
+	
+	//DB Settings
+	$hostname_mxit_devilsdictionary = "<YOUR DB HOST>";
+	$database_mxit_devilsdictionary = "<YOUR DB NAME>";
+	$username_mxit_devilsdictionary = "<YOUR DB USERNAME>";
+	$password_mxit_devilsdictionarys = "<YOUR DB PASSWORD>";
+	$mxit_devilsdictionary = mysql_pconnect($hostname_mxit_devilsdictionary, $username_mxit_devilsdictionary, $password_mxit_devilsdictionarys) or trigger_error(mysql_error(),E_USER_ERROR); 
+	
+?>
