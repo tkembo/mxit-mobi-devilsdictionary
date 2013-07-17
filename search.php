@@ -89,12 +89,12 @@ $totalPages_searchResultsRecordset = ceil($totalRows_searchResultsRecordset/$max
 			/**
 			 * Get a text banner for this user, and display it
 			 */
-			$ShinkaBannerAd->doServerAdRequest('text');
+			$ShinkaBannerAd->doServerAdRequest('image');
 			print $ShinkaBannerAd->generateHTMLFromAd();
 		?>  
 
 <br>
-        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">Feedback/Help/About/More Info</a></strong></p>    	
+        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">About this app</a></strong></p>    	
 </body>
 </html>
 <?php

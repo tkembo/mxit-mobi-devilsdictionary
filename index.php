@@ -40,12 +40,12 @@ $totalPages_featuredWordsRecordset = ceil($totalRows_featuredWordsRecordset/$max
 <body>
 <h1>Devil's Dictionary</h1>
 
-  <?php //do { ?>
+
       <b>Random Word: </b>
       <br />
       
 	  <b><?php echo $row_featuredWordsRecordset['word'];?></b>, <?php echo $row_featuredWordsRecordset['definition'];?>
-    <?php //} while ($row_featuredWordsRecordset = mysql_fetch_assoc($featuredWordsRecordset)); ?>
+   
 <br /><br />
 <b>Browse by Letter</b>
 <br />
@@ -106,12 +106,12 @@ You can type in the word (or the first few letters of the word) you wish to sear
 			/**
 			 * Get a text banner for this user, and display it
 			 */
-			$ShinkaBannerAd->doServerAdRequest('text');
+			$ShinkaBannerAd->doServerAdRequest('image');
 			print $ShinkaBannerAd->generateHTMLFromAd();
 		?>  
 
 <br>
-        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">Feedback/Help/About/More Info</a></strong></p>     	
+        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">About this app</a></strong></p>     	
 </body>
 </html>
 <?php

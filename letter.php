@@ -76,7 +76,7 @@ You can type in the word (or the first few letters of the word) you wish to sear
        
        
        <br>
-        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">Feedback/Help/About/More Info</a></strong></p>     	
+        <p><strong><a href="feedback.php">F1</a>) <a href="feedback.php">About this app</a></strong></p>     	
         
 </body>
 </html>
